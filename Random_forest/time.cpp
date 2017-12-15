@@ -12,4 +12,5 @@ int  time()
 	srand((unsigned int)time(&timep));
 	cout << rand()<<" "<<rand()<<endl;
     return 0;
+	
  }
