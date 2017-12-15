@@ -6,7 +6,7 @@ int autoptr()
 {
 	std::auto_ptr<int> p(new int);
 	std::auto_ptr<int> p2=std::auto_ptr<int>(nullptr);
-    std::cout << "p2 points is null " << std::boolalpha <<(p2.get() == nullptr) << '\n';
+	std::cout << "p2 points is null " << std::boolalpha <<(p2.get() == nullptr) << '\n';
 
     *p.get() = 100;
 
