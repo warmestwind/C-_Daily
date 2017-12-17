@@ -1,3 +1,4 @@
+~~~
 //main.cpp 
 ClassificationDemo<F:AxisAlignedFeatureResponse>::Train(data, fFactory, trainParameter) (static型) 
 {
@@ -37,4 +38,4 @@ ClassificationDemo<F:AxisAlignedFeatureResponse>::Train(data, fFactory, trainPar
    	 	return forest; //返回训练好的森林
     }
 }
-
+~~~
